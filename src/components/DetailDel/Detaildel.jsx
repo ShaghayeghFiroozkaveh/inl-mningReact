@@ -42,7 +42,7 @@ const Detaildel = ({items}) =>{
 
                 <div className="detailDelStyle">
                     <img src={img[0]} alt="weather icon"/>
-                    <p>{all[0].main.temp}&#8451;</p>
+                    <p>{all[0].main.temp_min}&#8451;/{all[0].main.temp_max}&#8451;</p>
                     <h4>{weekday[d.getDay()+1]}
                     <br/>
                     {all[0].dt_txt.substring(0,10)}</h4>
@@ -50,7 +50,7 @@ const Detaildel = ({items}) =>{
 
                 <div className="detailDelStyle">
                     <img src={img[1]} alt="weather icon"/>
-                    <p>{all[1].main.temp}&#8451;</p>
+                    <p>{all[1].main.temp_min}&#8451;/{all[1].main.temp_max}&#8451;</p>
                     <h4>{weekday[d.getDay()+2]}
                     <br/>
                     {all[1].dt_txt.substring(0,10)}</h4>
@@ -58,7 +58,7 @@ const Detaildel = ({items}) =>{
 
                 <div className="detailDelStyle">
                     <img src={img[2]} alt="weather icon"/>
-                    <p>{all[2].main.temp}&#8451;</p>
+                    <p>{all[2].main.temp_min}&#8451;/{all[2].main.temp_max}&#8451;</p>
                     <h4>{weekday[d.getDay()+3]}
                     <br/>
                     {all[2].dt_txt.substring(0,10)}</h4>
@@ -66,7 +66,7 @@ const Detaildel = ({items}) =>{
 
                 <div className="detailDelStyle">
                     <img src={img[3]} alt="weather icon"/>
-                    <p>{all[3].main.temp}&#8451;</p>
+                    <p>{all[3].main.temp_min}&#8451;/{all[3].main.temp_max}&#8451;</p>
                     <h4>{weekday[d.getDay()+4]}
                     <br/>
                     {all[3].dt_txt.substring(0,10)}</h4>
@@ -74,7 +74,7 @@ const Detaildel = ({items}) =>{
 
                 <div className="detailDelStyle">
                     <img src={img[4]} alt="weather icon"/>
-                    <p>{all[4].main.temp}&#8451;</p>
+                    <p>{all[4].main.temp_min}&#8451;/{all[4].main.temp_max}&#8451;</p>
                     <h4>{weekday[d.getDay()+5]}
                     <br/>
                     {all[4].dt_txt.substring(0,10)}</h4>
