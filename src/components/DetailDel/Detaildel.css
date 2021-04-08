@@ -1,0 +1,16 @@
+
+.detailStyle{
+    background-color: rgb(187, 203, 216);
+    margin: auto;
+    width: 70%;
+}
+
+.detailDelStyle{
+    background-color:rgb(178, 191, 196);
+    width: 15%;
+    height: 300px;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+}

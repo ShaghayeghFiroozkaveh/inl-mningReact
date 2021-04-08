@@ -1,0 +1,20 @@
+.searchStyle{
+    margin: auto;
+    width: 50%;
+    /* background-color:rgb(126, 167, 201); */
+    padding: 10px;
+    text-align: center;
+}
+
+.txtSearch{
+    background-color: rgb(187, 203, 216);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+}
+
+.btnSearch{
+    background-color: rgb(187, 203, 216);
+    border-radius: 50%;
+    border: 2px solid black;
+    padding-left: 5px;
+}
