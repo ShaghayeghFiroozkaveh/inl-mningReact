@@ -4,7 +4,7 @@ import './Detaildel.css';
 const Detaildel = ({items}) =>{
 
     console.log({items});
-
+// aaaaaa
     return(<div className="detailStyle"> 
     <div className="detailDelStyle">
         <p>hej</p>
