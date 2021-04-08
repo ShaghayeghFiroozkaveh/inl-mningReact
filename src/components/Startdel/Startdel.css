@@ -1,8 +1,32 @@
 .startStyle{
     margin: auto;
-    width: 70%;
+    width: 60%;
     text-align: center;
     background-color:rgb(215, 218, 219);
+    border-radius: 25px;
     height: 300px;
     text-align: center;
+}
+
+.startInfoRight{
+    padding-top: 0%;
+    padding-right: 10%;
+    float: right;
+    text-align: center;
+}
+
+.startImgSize{
+    width: 190px;
+    height: 220px;
+}
+.startInfoLeft{
+    padding-top: 20px;
+    padding-left: 10%;
+    text-align: left;
+    float: left;
+    color: rgb(63, 63, 92);
+}
+.startInfoLeft h1{
+    color:rgb(147, 174, 196);
+
 }
