@@ -1,24 +1,52 @@
 .searchStyle{
+    margin-bottom: 0%;
     margin: auto;
-    width: 50%;
-    /* background-color:rgb(126, 167, 201); */
-    padding: 10px;
+    width: 80%;
+    padding-bottom: 10px;
     text-align: center;
 }
 
 .txtSearch{
     background-color: rgb(187, 203, 216);
     background-position: 10px 10px;
-    width: 60%;
-    border-radius: 15%;
+    width: 40%;
+    border-radius: 15px;
+    font-size: 15px;
+    padding: 3px;
+    margin-left: 10px;
 }
 
 .btnSearch{
     background-color: rgb(188, 195, 204);
     border-radius: 50%;
     border: 2px solid black;
-    margin-left: -38px;
+    margin-left: -44px;
     padding: 0 10px;
-    color:rgb(51, 25, 110);
+    color:darkslategray;
     font-size: unset;
+    font-size: 15px;
+    padding: 3px;
+    width: 50px;
+}
+
+.currentlyPlace{
+    width: 50%;
+    padding: 10px;
+}
+
+.btnCurrentPlace{
+    background-color: rgb(187, 203, 216);
+    border: 2px solid rgb(113, 106, 173);
+    padding: 3px;
+    border-radius: 15px;
+    color: rgb(113, 106, 173);
+    font-size: 15px;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.btnCurrentPlace:hover{
+    background-color: rgb(113, 106, 173);
+    border: 2px solid rgb(187, 203, 216);
+    color:rgb(147, 174, 196);
 }

@@ -7,11 +7,17 @@ const SearchCity = ({searchItem}) =>{
     
      const CityVal = useRef();
 
-     return(<div className="searchStyle">
+     return(<div>
+        <div className="currentlyPlace">
+            
+         </div>
 
-        <input className="txtSearch" type="text" placeholder="Sök efter stad" ref={CityVal} />
-        <button className="btnSearch" onClick={ () => searchItem(CityVal.current.value)}>Sök</button>
-        
+         <div className="searchStyle">
+            <input className="txtSearch" type="text" placeholder="Sök efter stad" ref={CityVal} />
+            <button className="btnSearch" onClick={ () => searchItem(CityVal.current.value)}>Sök</button>
+            <button className="btnCurrentPlace" onClick={ () => searchItem("stockholm")}> Min nuvarande plats </button>
+         </div>
+
      </div>);
 
 }
