@@ -78,7 +78,7 @@ const Detaildel = ({items}) =>{
                     <h4>{weekday[d.getDay()+5]}
                     <br/>
                     {all[4].dt_txt.substring(0,10)}</h4>
-                </div>
+                </div> 
 
             </div>);
 

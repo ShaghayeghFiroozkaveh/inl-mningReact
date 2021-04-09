@@ -32,8 +32,8 @@ const getDetailBlogItem = () =>{
     .then(item => {
 
         var today = item.list[0];
-        var forwardDays = item.list.filter(day => day.dt_txt.endsWith('12:00:00') && day.dt_txt.substring(0,10) !== today.dt_txt.substring(0,10));
-        if (forwardDays.length>5) {
+        var forwardDays = item.list.filter(day => day.dt_txt.endsWith('12:00:00') && day.dt_txt.substring(0,11) !== today.dt_txt.substring(0,10));
+        if (forwardDays.length > 5) {
             forwardDays.pop();
         }
     
@@ -78,7 +78,7 @@ const getDetailBlogItem = () =>{
             var today = item.list[0];
             var details = {city:item.city, today:item.list[0]};
     
-            var forwardDays = item.list.filter(day => day.dt_txt.endsWith('12:00:00') && day.dt_txt.substring(0,10) !== today.dt_txt.substring(0,10));
+            var forwardDays = item.list.filter(day => day.dt_txt.endsWith('12:00:00') && day.dt_txt.substring(0,11) !== today.dt_txt.substring(0,10));
             if (forwardDays.length>5) {
                 forwardDays.pop();
             }
