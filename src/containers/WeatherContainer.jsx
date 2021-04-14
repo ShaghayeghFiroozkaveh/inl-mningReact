@@ -22,7 +22,7 @@ const getStartBlogItem = () =>{
 }
 
 
-//Detaljdelen framåt dagarna
+//Detaljdelen framåt dagar
 const getDetailBlogItem = () =>{
 
     const url="http://api.openweathermap.org/data/2.5/forecast?q=Stockholm&units=metric&APPID=9dcae045383bbf0f60df7875526c7d56";
